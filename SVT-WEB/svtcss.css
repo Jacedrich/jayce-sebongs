@@ -1,0 +1,389 @@
+:root{
+    --darkgray: #212329;
+    --brightred: #F7CAC9;
+    --white: #fff;
+    --lightred: #F9433dcc;
+    --coolblue: #B3CEE5;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: var(--brightred);
+    
+}
+h3{
+    color: var(--coolblue);
+}
+
+h3:hover{
+    color: var(--lightred);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: var(--coolblue);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    color: var(--brightred);
+  }
+  
+
+  #title{
+      float: left;
+      font-weight: bold;
+      font-size: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .cheol{
+      height: 320px;
+      width: 300px;
+      margin-top: 90px;
+      margin-left: 120px;
+      border-radius: 10px;
+      box-shadow: 3px 3px var(--coolblue);
+      text-align: center;
+      background-color: var(--white);
+  }
+#coupsTitle{
+    
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#scoupsIMG{
+    align-items: center;
+    margin: 15px;
+    height: 240px;
+    width: 240px;
+    border-radius: 15px;
+}
+
+.jeonghan{
+    height: 320px;
+    width: 300px;
+    margin-top: -320px;
+    margin-left: 480px;
+    border-radius: 10px;
+    box-shadow: 3px 3px var(--coolblue);
+    text-align: center;
+    background-color: var(--white);
+}
+#jeonghanTitle{
+  
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#jeonghanIMG{
+  align-items: center;
+  margin: 15px;
+  height: 240px;
+  width: 240px;
+  border-radius: 15px;
+}
+
+.joshua{
+    height: 320px;
+    width: 300px;
+    margin-top: -320px;
+    margin-left: 840px;
+    border-radius: 10px;
+    box-shadow: 3px 3px var(--coolblue);
+    text-align: center;
+    background-color: var(--white);
+}
+#joshuaTitle{
+  
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#joshuaIMG{
+  align-items: center;
+  margin: 15px;
+  height: 240px;
+  width: 240px;
+  border-radius: 15px;
+}
+
+.junhui{
+    height: 320px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 120px;
+    border-radius: 10px;
+    box-shadow: 3px 3px var(--coolblue);
+    text-align: center;
+    background-color: var(--white);
+}
+#junhuiTitle{
+  
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#junhuiIMG{
+  align-items: center;
+  margin: 15px;
+  height: 240px;
+  width: 240px;
+  border-radius: 15px;
+}
+
+.hoshi{
+    height: 320px;
+    width: 300px;
+    margin-top: -320px;
+    margin-left: 480px;
+    border-radius: 10px;
+    box-shadow: 3px 3px var(--coolblue);
+    text-align: center;
+    background-color: var(--white);
+}
+#hoshiTitle{
+  
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#hoshiIMG{
+  align-items: center;
+  margin: 15px;
+  height: 240px;
+  width: 240px;
+  border-radius: 15px;
+}
+
+.wonwoo{
+    height: 320px;
+    width: 300px;
+    margin-top: -320px;
+    margin-left: 840px;
+    border-radius: 10px;
+    box-shadow: 3px 3px var(--coolblue);
+    text-align: center;
+    background-color: var(--white);
+}
+#wonwooTitle{
+  
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#wonwooIMG{
+  align-items: center;
+  margin: 15px;
+  height: 240px;
+  width: 240px;
+  border-radius: 15px;
+}
+
+.woozi{
+    height: 320px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 120px;
+    border-radius: 10px;
+    box-shadow: 3px 3px var(--coolblue);
+    text-align: center;
+    background-color: var(--white);
+}
+#wooziTitle{
+  
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#wooziIMG{
+  align-items: center;
+  margin: 15px;
+  height: 240px;
+  width: 240px;
+  border-radius: 15px;
+}
+
+.dokyeom{
+    height: 320px;
+    width: 300px;
+    margin-top: -320px;
+    margin-left: 480px;
+    border-radius: 10px;
+    box-shadow: 3px 3px var(--coolblue);
+    text-align: center;
+    background-color: var(--white);
+}
+#dokyeomTitle{
+  
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dokyeomIMG{
+  align-items: center;
+  margin: 15px;
+  height: 240px;
+  width: 240px;
+  border-radius: 15px;
+}
+
+.mingyu{
+    height: 320px;
+    width: 300px;
+    margin-top: -320px;
+    margin-left: 840px;
+    border-radius: 10px;
+    box-shadow: 3px 3px var(--coolblue);
+    text-align: center;
+    background-color: var(--white);
+}
+#mingyuTitle{
+  
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#mingyuIMG{
+  align-items: center;
+  margin: 15px;
+  height: 240px;
+  width: 240px;
+  border-radius: 15px;
+}
+
+.minghao{
+    height: 320px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 120px;
+    border-radius: 10px;
+    box-shadow: 3px 3px var(--coolblue);
+    text-align: center;
+    background-color: var(--white);
+}
+#minghaoTitle{
+  
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#minghaoIMG{
+  align-items: center;
+  margin: 15px;
+  height: 240px;
+  width: 240px;
+  border-radius: 15px;
+}
+
+.seungkwan{
+    height: 320px;
+    width: 300px;
+    margin-top: -320px;
+    margin-left: 480px;
+    border-radius: 10px;
+    box-shadow: 3px 3px var(--coolblue);
+    text-align: center;
+    background-color: var(--white);
+}
+#seungkwanTitle{
+  
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#seungkwanIMG{
+  align-items: center;
+  margin: 15px;
+  height: 240px;
+  width: 240px;
+  border-radius: 15px;
+}
+.vernon{
+    height: 320px;
+    width: 300px;
+    margin-top: -320px;
+    margin-left: 840px;
+    border-radius: 10px;
+    box-shadow: 3px 3px var(--coolblue);
+    text-align: center;
+    background-color: var(--white);
+}
+#vernonTitle{
+  
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#vernonIMG{
+  align-items: center;
+  margin: 15px;
+  height: 240px;
+  width: 240px;
+  border-radius: 15px;
+}
+
+.dino{
+    height: 320px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 480px;
+    border-radius: 10px;
+    box-shadow: 3px 3px var(--coolblue);
+    text-align: center;
+    background-color: var(--white);
+    margin-bottom: 50px;
+}
+#dinoTitle{
+  
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dinoIMG{
+  align-items: center;
+  margin: 15px;
+  height: 240px;
+  width: 240px;
+  border-radius: 15px;
+}
+
+#aboutTitle{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--white);
+    margin-bottom: 10px;
+    text-shadow: 4px 4px var(--coolblue);
+}
+
+#textSebong{
+    
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--white);
+    padding: 40px;
+    text-align: center;
+    line-height: 40px;
+
+}
